@@ -1,10 +1,10 @@
 import  profile  from "../assets/profile.jpg"
 import linkedin from "../assets/linkedin.png"
 import github from "../assets/github.png"
-import cv from "../assets/resume-example.pdf"
+import cv from "../assets/Shabrez-Resume.pdf"
 
 export const Profile = () => {
-   const linkedInUrl = "https://www.linkedin.com";
+   const linkedInUrl = "https://www.linkedin.com/in/g-shabrez-785362159/";
    const githubUrl = "https://github.com/mohshabrez"
    
    const handleClickScroll = () => {
@@ -23,7 +23,7 @@ export const Profile = () => {
                 <div className="section__text">
                     <p className="section__text__p1">Hello, I'm</p>
                     <h1 className="title">Shabrez G</h1>
-                    <p className="section__text__p2">MERN Developer</p>
+                    <p className="section__text__p2">Full Stack/MERN Developer</p>
                     <div className="btn-container">
                     <a href={cv} className="btn1 btn-color-2">
                         Download CV
